@@ -1,0 +1,40 @@
+body {
+  background-color: #1C1A22;
+  font-family: 'Baloo Bhaijaan', cursive; }
+  body .form-control {
+    border: none; }
+  body h3 {
+    color: #49FF49;
+    font-size: 50px; }
+  body .btn, body .btn-primary {
+    background-color: #64d5df;
+    color: #d2233d;
+    border: none; }
+  body .btn-primary:hover, body .btn-primary:focus, body .open > .dropdown-toggle.btn-primary {
+    color: #64d5df;
+    border: none;
+    background-color: #d2233d; }
+  body .btn-primary:active {
+    border: none;
+    color: white;
+    box-shadow: none;
+    background-color: #d2233d; }
+  body #divList {
+    margin-top: 80px; }
+    body #divList h3 {
+      color: #49FF49;
+      font-size: 30px; }
+      body #divList h3 span {
+        color: #d2233d; }
+    body #divList p {
+      color: white;
+      font-size: 30px; }
+      body #divList p span {
+        color: #d2233d; }
+    body #divList button {
+      background-color: #49FF49;
+      border: none;
+      border-radius: 5px;
+      margin-right: 5px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,64 @@
+@mixin text {
+	color: #49FF49;
+	font-size: 30px;
+}
+
+$redClr: rgb(210, 35, 61);
+
+
+
+
+body {
+	background-color: #1C1A22;
+	font-family: 'Baloo Bhaijaan', cursive;
+
+		.form-control {
+			border: none;
+		}
+
+		h3 {
+			color: #49FF49;
+			font-size: 50px;
+		}
+		.btn, .btn-primary {
+			background-color: #64d5df;
+			color: $redClr;
+		 	border: none;
+		}
+		.btn-primary:hover, .btn-primary:focus, .open > .dropdown-toggle.btn-primary {
+			color: #64d5df;
+			border: none;
+			background-color: $redClr;
+		}
+		.btn-primary:active {
+			border: none;
+			color: white;
+			box-shadow: none;
+			background-color: $redClr;
+		}
+
+	#divList {
+		margin-top: 80px;
+	
+		h3 {
+			@include text;
+			span {
+				color: $redClr;
+			}
+		}
+		p {
+			color: white;
+			font-size: 30px;
+			span{
+				color: $redClr;
+			}
+		}
+		button {
+			background-color: #49FF49;
+			border: none;
+			border-radius: 5px;
+			margin-right: 5px;
+		}
+	}
+
+}
